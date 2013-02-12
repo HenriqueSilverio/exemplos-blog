@@ -1,0 +1,91 @@
+/* Basic reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Fixed width and centralized container */
+.wrap {
+	margin: 20px auto;
+	width: 960px;
+}
+
+/* Main styles */
+body {
+	font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	padding-bottom: 20px;
+}
+
+p {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+hr {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.header,
+.nav,
+.sidebar,
+.container,
+.post,
+.footer,
+header,
+nav,
+aside,
+section,
+article,
+footer {
+	padding: 20px 10px;
+	border: 2px solid #333;
+	background: #ececec;
+}
+
+.header,
+header {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.nav,
+nav {
+	margin-bottom: 20px;
+}
+
+.sidebar,
+.container,
+aside,
+section {
+	float: left;
+	height: 148px;
+}
+
+.sidebar,
+aside {
+	margin-right: 25px;
+	width: 206px;
+}
+
+.container,
+section {
+	margin-bottom: 20px;
+	width: 681px;
+}
+
+.post,
+article {
+	margin-top: 20px;
+	height: 62px;
+	background: #ccc;
+}
+
+.footer,
+footer {
+	clear: both;
+}
