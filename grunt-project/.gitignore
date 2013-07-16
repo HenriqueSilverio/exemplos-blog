@@ -1,0 +1,8 @@
+.DS_Store
+src/*.sublime-project
+src/*.sublime-workspace
+src/.sass-cache/*
+src/node_modules/*
+src/.ftppass
+src/tmp/*
+build/*
