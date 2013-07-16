@@ -4,7 +4,7 @@
 
 Automatize tarefas e otimize o seu worflow com o [Grunt JS](http://gruntjs.com/).
 
-Siga um passo a passo sobre a criação desse código fonte lendo [este artigo]().
+Siga um passo a passo sobre a criação desse código fonte lendo [este artigo](http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-worflow/).
 
 ## Instalação
 
@@ -15,7 +15,8 @@ Siga um passo a passo sobre a criação desse código fonte lendo [este artigo](
 
 1. Personalize o arquivo `package.json` com as informações de seu projeto.
 2. Personalize o arquivo `.ftppass` com seu usuário e senha de ftp.
-3. Configure a task `ftp-deploy` de acordo com seu projeto. Para maiores informações consulte a documentação do [grunt-ftp-deploy](https://github.com/zonak/grunt-ftp-deploy).
+3. Adicione o `.ftppass` ao seu `.gitignore`.
+4. Configure a task `ftp-deploy` de acordo com seu projeto. Para maiores informações consulte: [grunt-ftp-deploy](https://github.com/zonak/grunt-ftp-deploy).
 
 ## Contribua com o projeto
 
